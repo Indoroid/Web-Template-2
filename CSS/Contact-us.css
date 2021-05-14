@@ -1,0 +1,153 @@
+html{scroll-behavior: smooth;}
+hr{
+    border: 2px solid black;
+    background-color: #000000;
+}
+/* Header */
+#header-link{text-decoration: none;}
+header{
+    display: flex;
+    justify-content: center;
+}
+header div h1{
+    color: blue;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+header div h6{
+    margin-top: 0%;
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    height: 10em;
+    width: 10em;
+}
+
+/* Nav Bar */
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin: 0px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 45px;
+}
+nav a{
+    background-color: #dc143c;
+    padding: 10px;
+    margin: 1.25em;
+    border-radius: 50px;
+    border: 5px double #000000;
+    flex-grow: 5;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: gold;
+}
+nav a:hover{
+    background-color: #ffff00;
+    border: 5px double #ffffff;
+    color: #000000;
+}
+
+/* Customer care */
+.Cust-care{
+    font-family: 'Crete Round', serif;
+    text-align: center;
+}
+.Cust-care1{
+    font-family: 'Crete Round', serif;
+    text-align: left;
+}
+#Forum{
+    text-decoration: none;
+    color: #dc143c;
+    font-size: 50px;
+    text-align: center;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+.Social-Medias-contacts{
+    font-size: 30px;
+    display: flex;
+    font-family: 'Reggae One', cursive;
+    flex-flow: column;
+    text-align: center;
+}
+.Social-Medias-contacts a{
+    font-size: 25px;
+}
+.Social-Medias-contacts a p{
+    margin: 5px;
+    background-color: #ffff00;
+    border: 2px solid #dc143c; 
+    color: rgb(255, 0, 242);
+}
+.Social-Medias-contacts a :hover{
+    margin: 5px;
+    background-color: #00ff15;
+    border: 2px solid #1417dc; 
+    color: rgb(255, 0, 242);
+}
+
+/* Footer */
+footer {
+    background-color: #dc143c;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+    height: 20em;
+    border-radius: 10px;
+  }
+  #Logo-Footer {
+    height: 8.5em;
+  }
+  .Social-Medias,
+  .Products {
+    display: flex;
+    flex-flow: column;
+    margin: 25px;
+    font-family: 'Major Mono Display', monospace;
+  }
+  .Social-Medias a,
+  .Products a {
+    text-decoration: none;
+    color: aqua;
+  }
+  .Social-Medias h1,
+  .Products h1{
+      font-size: 20px;
+  }
+  @media (min-width: 100px) and (max-width: 650px) {
+    footer {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: auto;
+      height: auto;
+    }
+    .Social-Medias,
+    .Products {
+      margin: 5px;
+    }
+  }
+  .Footer-logo-content {
+    display: flex;
+    text-decoration: none;
+  }
+  #Footer-Company,
+  .Footer-logo-content {
+    color: #000000;
+    justify-content: center;
+    align-self: center;
+  }
+  #Footer-Company h1 {
+    color: blue;
+    margin-bottom: 0%;
+  }
+  #Footer-Company h6 {
+    margin-top: 0%;
+  }
